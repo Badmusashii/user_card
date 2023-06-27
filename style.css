@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+  background: rgb(236, 236, 236);
+  background: linear-gradient(
+    180deg,
+    rgba(236, 236, 236, 0.7540266106442577) 30%,
+    rgba(106, 153, 78, 1) 89%
+  );
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.cardUser {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50rem;
+  height: 25rem;
+  /* border: 1px solid red; */
+}
+.usercard {
+  text-align: center;
+  position: relative;
+  border: 2px solid black;
+  font-size: 1rem;
+  border-radius: 2px;
+  padding: 2px;
+  margin: 0.7rem 0 0.7rem 0;
+  /* margin-top: 0.6rem; */
+  /* padding-top: 2.4rem; */
+  background-color: rgb(236, 236, 236);
+  box-shadow: 3px 3px 9px #292e1e;
+  width: 13rem;
+  height: 12rem;
+  transition: 1s ease-in-out;
+}
+.usercard:hover {
+  box-shadow: -10px 8px 10px 0px #292e1e;
+  border-radius: 10px;
+  /* font-size: 1.014rem; */
+  /* font-weight: bold; */
+}
+.usercard p:first-of-type {
+  margin-top: 5rem;
+  font-weight: bold;
+  /* color: red; */
+}
+.usercard p {
+  padding-bottom: 0.2rem;
+}
+.usercard img {
+  top: -1.5rem;
+  left: -1.5rem;
+  position: absolute;
+  width: 5rem;
+  border-radius: 50%;
+  box-shadow: 2px 3px 6px 1px #6f5e76;
+  transition: 1s ease-in-out;
+}
+.usercard img:hover {
+  /* width: 5.05rem; */
+  box-shadow: 3px 4px 7px 2px #6f5e76;
+}
+/* button {
+    width: 3re;
+} */
